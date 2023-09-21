@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+.btnn {
+  background-color: deepskyblue;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: linear 0.8s;
+}
+
+.mrgn {
+  margin: 20px 0;
+}
+
+.container-two {
+  width: 400px;
+  height: 400px;
+  background-color: red;
+  border-radius: 10px;
+  transition: ease-in-out 0.8s;
+}
+
+.container-three {
+  margin-top: 10px;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  background-color: aqua;
+  .ball {
+    position: relative;
+    left: 1%;   
+    background-color: red;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+}
